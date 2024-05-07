@@ -101,9 +101,10 @@
                     <h5 class="feature-consultation-title">Оставьте свой номер и мы вам перезвоним
                     </h5>
                     <form class="feature-consultation-form">
-                        <input type="text" placeholder="Имя...">
-                        <input type="text" placeholder="Телефон номер">
-                        <a href="#!" class="feature-consultation-btn btn">Отправить</a>
+                        <input type="text" name="name" placeholder="Имя...">
+                        <input type="text" name="phone" placeholder="Телефон номер">
+                        <!-- <a href="#!" class="feature-consultation-btn btn">Отправить</a> -->
+                        <button class="button feature-consultation-btn btn">Отправить</button>
                     </form>
                 </div>
             </div>
@@ -291,11 +292,9 @@
                     <button class="modal__close" title="Закрыть" data-custom-close></button>
                 </header>
 
-                <form>
-                    <input type="text" name="Имя" placeholder="Имя...">
-                    <input type="text" name="Телефон" placeholder="Телефон номер...">
-                    <textarea name="Комментарий" placeholder="Комментарий..." rows="1"></textarea>
-                    <input type="hidden" name="form">
+                <form id="form-modal">
+                    <input type="text" name="name" placeholder="Имя...">
+                    <input type="text" name="phone" placeholder="Телефон номер...">
                     <div class="modal__footer">
                         <button class="button">Отправить</button>
                     </div>
