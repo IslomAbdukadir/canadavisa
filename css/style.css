@@ -460,6 +460,41 @@ a#dex-sign:hover {
     content: none;
 }
 
+/* question start */
+
+.question {
+    width: 100%;
+    height: 150px;
+    background: url(../img/background.png) no-repeat center / cover;
+    margin: 50px 0;
+    padding: 0;
+}
+
+.question .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.question-txt {
+    font-size: 32px;
+    max-width: 650px;
+    color: #000;
+    text-shadow: 0 0 12px #fff;
+}
+
+.question-btn {
+    background: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 10px 25px;
+    border-radius: 12px;
+    color: #a9342a;
+}
+
+/* question end */
+
 /* footer start */
 
 .footer {
