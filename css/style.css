@@ -45,19 +45,15 @@ ul {
     justify-content: space-between;
 }
 
+.header-logo {
+    max-width: 240px;
+}
+
 .header-logo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
-    transform: scale(2);
-}
-
-.btn {
-    background: rgba(253, 45, 23);
-    padding: 10px 15px;
-    border-radius: 8px;
-    color: #fff;
 }
 
 .header-content {
@@ -144,6 +140,13 @@ section {
     border: 3px solid rgb(0, 166, 255);
     margin: 0;
     border-radius: 5px;
+    padding: 15px 20px 10px;
+}
+
+.feature-consultation-form input::placeholder {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .feature-consultation-btn {
@@ -959,4 +962,16 @@ form textarea::placeholder {
         transform: rotate(0deg) scale(0.7) skew(1deg);
         opacity: .2;
     }
+}
+
+.btn {
+    background: rgba(253, 45, 23);
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.feature-consultation-btn {
+    height: 47px;
+    width: 100px;
 }
