@@ -779,6 +779,7 @@ form textarea::placeholder {
 #popup__toggle {
     bottom: 25px;
     right: 10px;
+    z-index: 999;
     position: fixed;
 }
 
